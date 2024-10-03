@@ -1,0 +1,54 @@
+body{
+    background-color: #222;
+}
+.wrapper{
+    margin: 5% 20%;
+    height: 720px;
+    display:flex;
+    flex-wrap: nowrap;
+}
+img{
+    flex-basis: 40%;
+    height: inherit;
+    border: 3px solid white;
+    transition: all 5s cubic-bezier(0.19, 1, 0.22, 1);
+}
+img:hover{
+    border-color: #9c52f4;
+    transform: scale(1.1, 1.1);
+}
+.stuff{
+    flex-basis: 60%;
+    color: white;
+    margin: 0 4rem;
+    font-family: "Shadows Into Light", cursive;
+}
+h3{
+    font-size: 4.5rem;
+    transition: all 0.5s ease;
+}
+h3:hover{
+    color: #9c52f4;
+}
+input, button, ::placeholder{
+    display: block;
+    width: 20rem;
+    padding: 0.3rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+    border: 3px solid white;
+    font-family: inherit;
+    transition: all 0.5s ease;
+}
+input:hover, input:active, button:active{
+    border-color: #9c52f4;
+}
+button:hover{
+    color: white;
+    background-color: #222;
+    border-color:white;
+    cursor: pointer;
+}
+label,input, button{
+    font-size: 2rem;
+}
